@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color:rgba(2, 65, 180, 0.89);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}  
+
+.form{
+ display: flex;
+ flex-direction: column;
+ background-color: #8818c9;
+ padding: 40px;
+ border-radius: 20px;
+ gap: 10px;
+}
+
+.titulo-login{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    padding: 6px;
+    font-size: 1.2rem;
+    color: rgb(6, 233, 55);
+    outline: none;
+    border: 1px solid rgb(1, 44, 235);
+    border-radius: 15px;
+}
+
+button{
+    background-color: rgb(56, 9, 226);
+    border: none;
+    color: #fff;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons a{
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    color: rgb(9, 53, 250);
+}
+
+a{
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
